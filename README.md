@@ -1,58 +1,40 @@
-AI SOC Assistant
+# AI SOC Assistant
 
-AI-powered Security Operations Center (SOC) Assistant for cybersecurity threat analysis using Python, Streamlit, and Gemini AI.
+AI-powered Security Operations Center (SOC) Assistant built using Python, Streamlit, and Gemini AI.
 
-Features
-
-- Threat Detection & Analysis
+## Features
+- Log Analysis
 - IOC Extraction
-- Security Log Analysis
-- AI-Powered Threat Intelligence
-- PDF Incident Report Generation
-- Risk Assessment
-- Security Recommendations
+- Threat Detection
+- AI-Powered Recommendations
+- Incident Report Generation
 
-Dashboard
-
-![Dashboard](screenshots/dashboard.png)
-
-Technologies Used
-
+## Technologies
 - Python
 - Streamlit
-- Google Gemini AI
+- Gemini AI
 - ReportLab
-- Pandas
+- dotenv
 
-Project Structure
+## Screenshots
 
-```text
-AI-SOC-Assistant/
-│
-├── app.py
-├── threat_analyzer.py
-├── ioc_extractor.py
-├── log_parser.py
-├── report_generator.py
-├── requirements.txt
-└── screenshots/
-```
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-Installation
+### Threat Analysis
+![Threat Analysis](screenshots/threat_analysis.png)
 
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+### IOC Extraction
+![IOC Extraction](screenshots/ioc_extraction.png)
 
-Future Improvements
+### Incident Report
+![Incident Report](screenshots/incident_report.png)
 
-- VirusTotal Integration
-- URL Reputation Checks
-- Threat Intelligence Feed Integration
-- User Authentication
-- Real-Time Alert Dashboard
+## Future Enhancements
+- Real-time log monitoring
+- Threat intelligence feeds
+- SIEM integration
+- Malware detection
 
-## 👨‍💻 Author
-
-Sapranusree
+## Author
+Pranusree SA
